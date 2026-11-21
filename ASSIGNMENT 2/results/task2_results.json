@@ -1,0 +1,289 @@
+{
+ "E1_distance": [
+  {
+   "target_frac": 0.25,
+   "optimal_cost": 69.05,
+   "dfs_moves": 138.45,
+   "dfs_revisits": 34.7,
+   "dfs_competitive_ratio": 2.02,
+   "lrta_trial1_ratio": 4.2,
+   "lrta_trial10_ratio": 1.47
+  },
+  {
+   "target_frac": 0.5,
+   "optimal_cost": 137.7,
+   "dfs_moves": 231.5,
+   "dfs_revisits": 46.9,
+   "dfs_competitive_ratio": 1.7,
+   "lrta_trial1_ratio": 9.32,
+   "lrta_trial10_ratio": 2.41
+  },
+  {
+   "target_frac": 0.75,
+   "optimal_cost": 206.35,
+   "dfs_moves": 343.35,
+   "dfs_revisits": 68.5,
+   "dfs_competitive_ratio": 1.72,
+   "lrta_trial1_ratio": 12.32,
+   "lrta_trial10_ratio": 3.42
+  },
+  {
+   "target_frac": 1.0,
+   "optimal_cost": 275.4,
+   "dfs_moves": 467.6,
+   "dfs_revisits": 96.1,
+   "dfs_competitive_ratio": 1.74,
+   "lrta_trial1_ratio": 15.63,
+   "lrta_trial10_ratio": 5.33
+  }
+ ],
+ "E2_unreachable": [
+  {
+   "size": 11,
+   "free_cells": 49,
+   "dfs_moves_until_giving_up": 96,
+   "dfs_declares_failure": true,
+   "moves_per_cell": 1.96,
+   "lrta_moves_in_cap_20x_cells": 980,
+   "lrta_terminates": false
+  },
+  {
+   "size": 21,
+   "free_cells": 199,
+   "dfs_moves_until_giving_up": 396,
+   "dfs_declares_failure": true,
+   "moves_per_cell": 1.99,
+   "lrta_moves_in_cap_20x_cells": 3980,
+   "lrta_terminates": false
+  },
+  {
+   "size": 31,
+   "free_cells": 449,
+   "dfs_moves_until_giving_up": 896,
+   "dfs_declares_failure": true,
+   "moves_per_cell": 2.0,
+   "lrta_moves_in_cap_20x_cells": 8980,
+   "lrta_terminates": false
+  },
+  {
+   "size": 41,
+   "free_cells": 799,
+   "dfs_moves_until_giving_up": 1596,
+   "dfs_declares_failure": true,
+   "moves_per_cell": 2.0,
+   "lrta_moves_in_cap_20x_cells": 15980,
+   "lrta_terminates": false
+  }
+ ],
+ "E3_size": [
+  {
+   "size": 11,
+   "free_cells": 49,
+   "optimal_cost": 38.7,
+   "dfs_moves": 50.9,
+   "competitive_ratio": 1.35,
+   "worst_ratio": 2.2
+  },
+  {
+   "size": 21,
+   "free_cells": 199,
+   "optimal_cost": 138.5,
+   "dfs_moves": 194.5,
+   "competitive_ratio": 1.41,
+   "worst_ratio": 2.47
+  },
+  {
+   "size": 31,
+   "free_cells": 449,
+   "optimal_cost": 275.4,
+   "dfs_moves": 467.6,
+   "competitive_ratio": 1.74,
+   "worst_ratio": 2.82
+  },
+  {
+   "size": 41,
+   "free_cells": 799,
+   "optimal_cost": 463.2,
+   "dfs_moves": 783.8,
+   "competitive_ratio": 1.7,
+   "worst_ratio": 2.5
+  },
+  {
+   "size": 51,
+   "free_cells": 1249,
+   "optimal_cost": 661.9,
+   "dfs_moves": 1213.5,
+   "competitive_ratio": 1.86,
+   "worst_ratio": 3.02
+  }
+ ],
+ "E4_dead_ends": [
+  {
+   "braid": 0.0,
+   "dead_end_pct": 5.4,
+   "dfs_moves": 343.35,
+   "dfs_revisits": 68.5,
+   "competitive_ratio": 1.72
+  },
+  {
+   "braid": 0.25,
+   "dead_end_pct": 4.0,
+   "dfs_moves": 399.7,
+   "dfs_revisits": 123.3,
+   "competitive_ratio": 3.38
+  },
+  {
+   "braid": 0.5,
+   "dead_end_pct": 2.3,
+   "dfs_moves": 456.1,
+   "dfs_revisits": 147.4,
+   "competitive_ratio": 5.63
+  },
+  {
+   "braid": 0.75,
+   "dead_end_pct": 1.2,
+   "dfs_moves": 385.95,
+   "dfs_revisits": 108.45,
+   "competitive_ratio": 5.45
+  },
+  {
+   "braid": 1.0,
+   "dead_end_pct": 0.0,
+   "dfs_moves": 328.3,
+   "dfs_revisits": 77.9,
+   "competitive_ratio": 5.26
+  }
+ ],
+ "E5_missions": {
+  "cumulative_moves": {
+   "dfs_every_time": [
+    452.5,
+    905.0,
+    1357.5,
+    1810.0,
+    2262.5,
+    2715.0,
+    3167.5,
+    3620.0,
+    4072.5,
+    4525.0,
+    4977.5,
+    5430.0,
+    5882.5,
+    6335.0,
+    6787.5,
+    7240.0,
+    7692.5,
+    8145.0,
+    8597.5,
+    9050.0,
+    9502.5,
+    9955.0,
+    10407.5,
+    10860.0,
+    11312.5,
+    11765.0,
+    12217.5,
+    12670.0,
+    13122.5,
+    13575.0
+   ],
+   "lrta_learning": [
+    2966.9,
+    4791.0,
+    6131.0,
+    7434.7,
+    8189.0,
+    9161.8,
+    9906.6,
+    10519.2,
+    11257.6,
+    11953.4,
+    12590.7,
+    13207.1,
+    13857.6,
+    14604.7,
+    15187.0,
+    15942.5,
+    16480.3,
+    17034.0,
+    17499.6,
+    18016.2,
+    18414.6,
+    18852.6,
+    19288.6,
+    19842.1,
+    20327.8,
+    20716.2,
+    21400.9,
+    21754.5,
+    22175.8,
+    22546.6
+   ],
+   "map_once_then_astar": [
+    452.5,
+    613.6,
+    774.7,
+    935.8,
+    1096.9,
+    1258.0,
+    1419.1,
+    1580.2,
+    1741.3,
+    1902.4,
+    2063.5,
+    2224.6,
+    2385.7,
+    2546.8,
+    2707.9,
+    2869.0,
+    3030.1,
+    3191.2,
+    3352.3,
+    3513.4,
+    3674.5,
+    3835.6,
+    3996.7,
+    4157.8,
+    4318.9,
+    4480.0,
+    4641.1,
+    4802.2,
+    4963.3,
+    5124.4
+   ]
+  },
+  "lrta_ratio_per_trial": [
+   17.56,
+   12.17,
+   7.67,
+   8.07,
+   4.46,
+   6.16,
+   4.67,
+   3.85,
+   4.51,
+   4.48,
+   3.84,
+   3.78,
+   4.0,
+   4.53,
+   4.07,
+   4.42,
+   3.48,
+   3.34,
+   3.05,
+   3.52,
+   2.56,
+   2.78,
+   2.74,
+   4.0,
+   3.02,
+   2.61,
+   4.46,
+   2.14,
+   2.57,
+   2.43
+  ]
+ }
+}

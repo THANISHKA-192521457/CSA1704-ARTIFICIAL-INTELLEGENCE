@@ -1,0 +1,212 @@
+{
+ "comparison": [
+  {
+   "n": 8,
+   "exhaustive_calls": 13700,
+   "exhaustive_time_s": 0.004,
+   "optimum": 277.8993,
+   "R1_prefix_only": {
+    "calls": 3247,
+    "tours": 170,
+    "prunes": 3286,
+    "time_s": 0.0024,
+    "optimal": true
+   },
+   "R1R2_bound": {
+    "calls": 1037,
+    "tours": 64,
+    "prunes": 1276,
+    "time_s": 0.0008,
+    "optimal": true
+   },
+   "R1R2R3_bound_order": {
+    "calls": 509,
+    "tours": 28,
+    "prunes": 806,
+    "time_s": 0.0006,
+    "optimal": true
+   },
+   "R1R2R3R4_full": {
+    "calls": 469,
+    "tours": 24,
+    "prunes": 775,
+    "time_s": 0.0007,
+    "seed_ls_excess_pct": 0.0,
+    "optimal": true
+   },
+   "reduction_pct_full_vs_exhaustive": 96.577
+  },
+  {
+   "n": 9,
+   "exhaustive_calls": 109601,
+   "exhaustive_time_s": 0.037,
+   "optimum": 265.0113,
+   "R1_prefix_only": {
+    "calls": 14559,
+    "tours": 583,
+    "prunes": 19018,
+    "time_s": 0.0119,
+    "optimal": true
+   },
+   "R1R2_bound": {
+    "calls": 6028,
+    "tours": 328,
+    "prunes": 8568,
+    "time_s": 0.0051,
+    "optimal": true
+   },
+   "R1R2R3_bound_order": {
+    "calls": 4238,
+    "tours": 189,
+    "prunes": 6980,
+    "time_s": 0.0059,
+    "optimal": true
+   },
+   "R1R2R3R4_full": {
+    "calls": 3587,
+    "tours": 121,
+    "prunes": 6468,
+    "time_s": 0.0053,
+    "seed_ls_excess_pct": 0.0,
+    "optimal": true
+   },
+   "reduction_pct_full_vs_exhaustive": 96.727
+  },
+  {
+   "n": 10,
+   "exhaustive_calls": 986410,
+   "exhaustive_time_s": 0.412,
+   "optimum": 267.6449,
+   "R1_prefix_only": {
+    "calls": 131971,
+    "tours": 1608,
+    "prunes": 168983,
+    "time_s": 0.1294,
+    "optimal": true
+   },
+   "R1R2_bound": {
+    "calls": 16561,
+    "tours": 104,
+    "prunes": 31296,
+    "time_s": 0.0285,
+    "optimal": true
+   },
+   "R1R2R3_bound_order": {
+    "calls": 13703,
+    "tours": 72,
+    "prunes": 27265,
+    "time_s": 0.0343,
+    "optimal": true
+   },
+   "R1R2R3R4_full": {
+    "calls": 12605,
+    "tours": 35,
+    "prunes": 26012,
+    "time_s": 0.033,
+    "seed_ls_excess_pct": 0.0,
+    "optimal": true
+   },
+   "reduction_pct_full_vs_exhaustive": 98.722
+  },
+  {
+   "n": 11,
+   "exhaustive_calls": 9864101,
+   "exhaustive_time_s": 4.399,
+   "optimum": 240.8648,
+   "R1_prefix_only": {
+    "calls": 322359,
+    "tours": 1434,
+    "prunes": 656109,
+    "time_s": 0.2973,
+    "optimal": true
+   },
+   "R1R2_bound": {
+    "calls": 34379,
+    "tours": 294,
+    "prunes": 87133,
+    "time_s": 0.034,
+    "optimal": true
+   },
+   "R1R2R3_bound_order": {
+    "calls": 24657,
+    "tours": 209,
+    "prunes": 65280,
+    "time_s": 0.039,
+    "optimal": true
+   },
+   "R1R2R3R4_full": {
+    "calls": 22986,
+    "tours": 151,
+    "prunes": 62622,
+    "time_s": 0.0384,
+    "seed_ls_excess_pct": 0.0,
+    "optimal": true
+   },
+   "reduction_pct_full_vs_exhaustive": 99.767
+  },
+  {
+   "n": 12,
+   "exhaustive_calls": 108505112,
+   "exhaustive_time_s": 36.6,
+   "optimum": 286.1278,
+   "R1_prefix_only": {
+    "calls": 1089560,
+    "tours": 2523,
+    "prunes": 2857925,
+    "time_s": 1.2822,
+    "optimal": true
+   },
+   "R1R2_bound": {
+    "calls": 82147,
+    "tours": 944,
+    "prunes": 235819,
+    "time_s": 0.1032,
+    "optimal": true
+   },
+   "R1R2R3_bound_order": {
+    "calls": 55164,
+    "tours": 42,
+    "prunes": 201661,
+    "time_s": 0.0893,
+    "optimal": true
+   },
+   "R1R2R3R4_full": {
+    "calls": 55162,
+    "tours": 40,
+    "prunes": 201663,
+    "time_s": 0.0895,
+    "seed_ls_excess_pct": 0.0,
+    "optimal": true
+   },
+   "reduction_pct_full_vs_exhaustive": 99.949
+  }
+ ],
+ "correctness_30_instances_n9": {
+  "agree": 30,
+  "total": 30,
+  "mean_call_fraction": 0.01889
+ },
+ "scalability": [
+  {
+   "n": 12,
+   "mean_calls": 126274,
+   "mean_time_s": 0.196,
+   "finished": "5/5",
+   "exhaustive_tours": "3.99e+07"
+  },
+  {
+   "n": 14,
+   "mean_calls": 649973,
+   "mean_time_s": 1.408,
+   "finished": "5/5",
+   "exhaustive_tours": "6.23e+09"
+  },
+  {
+   "n": 16,
+   "mean_calls": 1302105,
+   "mean_time_s": 2.716,
+   "finished": "4/5",
+   "exhaustive_tours": "1.31e+12"
+  }
+ ]
+}
