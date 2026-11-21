@@ -1,0 +1,46 @@
+=== TEST 1/2/3 : correctness (reachable, start==goal, unreachable), seed 42
+-- n=   1000  reachable goal=883  unreachable goal=999
+   BFS   reach: valid=True depth=4 cost=18 optimal=True | start==goal: path=[0] cost=0 exp=0 | unreachable: result=None gen=992 exp=993 (0.0s)
+   UCS   reach: valid=True depth=4 cost=18 optimal=True | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=1112 exp=992 (0.0s)
+   DFS   reach: valid=True depth=13 cost=69 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=992 exp=992 (0.0s)
+   IDDFS reach: valid=True depth=4 cost=18 optimal=True | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=14513 exp=14522 (0.0s)
+-- n=  10000  reachable goal=4624  unreachable goal=9999
+   BFS   reach: valid=True depth=6 cost=36 optimal=False | start==goal: path=[0] cost=0 exp=0 | unreachable: result=None gen=9992 exp=9993 (0.0s)
+   UCS   reach: valid=True depth=8 cost=26 optimal=True | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=11241 exp=9992 (0.0s)
+   DFS   reach: valid=True depth=1911 cost=9623 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=9992 exp=9992 (0.0s)
+   IDDFS reach: valid=True depth=6 cost=36 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=256938 exp=256952 (0.3s)
+-- n= 100000  reachable goal=36985  unreachable goal=99999
+   BFS   reach: valid=True depth=9 cost=57 optimal=False | start==goal: path=[0] cost=0 exp=0 | unreachable: result=None gen=99992 exp=99993 (0.1s)
+   UCS   reach: valid=True depth=14 cost=36 optimal=True | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=112106 exp=99992 (0.3s)
+   DFS   reach: valid=True depth=17231 cost=86690 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=99992 exp=99992 (0.2s)
+   IDDFS reach: valid=True depth=9 cost=57 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=3180600 exp=3180617 (4.4s)
+-- n=1000000  reachable goal=903964  unreachable goal=999999
+   BFS   reach: valid=True depth=14 cost=66 optimal=False | start==goal: path=[0] cost=0 exp=0 | unreachable: result=None gen=999992 exp=999993 (1.6s)
+   UCS   reach: valid=True depth=19 cost=57 optimal=True | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=1121324 exp=999992 (4.6s)
+   DFS   reach: valid=True depth=87521 cost=437441 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=999992 exp=999992 (1.7s)
+   IDDFS reach: valid=True depth=14 cost=66 optimal=False | start==goal: path=[0] cost=0 exp=1 | unreachable: result=None gen=48129449 exp=48129470 (93.8s)
+
+=== MAIN EXPERIMENT (seed 42, goal fixed per size, time = mean of 5 runs)
+n=   1000 BFS   gen=     452 exp=     173 maxfrontier=    280 depth=     4 cost=     18 optimal=True time=      0.1 ms seen=None iters=None
+n=   1000 UCS   gen=     954 exp=     586 maxfrontier=    388 depth=     4 cost=     18 optimal=True time=      0.7 ms seen=None iters=None
+n=   1000 DFS   gen=     979 exp=     942 maxfrontier=    287 depth=    13 cost=     69 optimal=False time=      0.3 ms seen=None iters=None
+n=   1000 IDDFS gen=     840 exp=     844 maxfrontier=      5 depth=     4 cost=     18 optimal=True time=      0.6 ms seen=419 iters=5
+n=  10000 BFS   gen=    1791 exp=     825 maxfrontier=    968 depth=     6 cost=     36 optimal=False time=      0.5 ms seen=None iters=None
+n=  10000 UCS   gen=    6003 exp=    3463 maxfrontier=   2298 depth=     8 cost=     26 optimal=True time=      4.9 ms seen=None iters=None
+n=  10000 DFS   gen=    8780 exp=    6339 maxfrontier=   3028 depth=  1911 cost=   9623 optimal=False time=      4.1 ms seen=None iters=None
+n=  10000 IDDFS gen=    4334 exp=    4340 maxfrontier=      7 depth=     6 cost=     36 optimal=False time=      3.0 ms seen=1486 iters=7
+n= 100000 BFS   gen=   34893 exp=   18467 maxfrontier=  16432 depth=     9 cost=     57 optimal=False time=     19.4 ms seen=None iters=None
+n= 100000 UCS   gen=   56119 exp=   30381 maxfrontier=  24262 depth=    14 cost=     36 optimal=True time=     83.2 ms seen=None iters=None
+n= 100000 DFS   gen=   90108 exp=   66576 maxfrontier=  30671 depth= 17231 cost=  86690 optimal=False time=    100.0 ms seen=None iters=None
+n= 100000 IDDFS gen=  114763 exp=  114772 maxfrontier=     10 depth=     9 cost=     57 optimal=False time=    148.9 ms seen=34161 iters=10
+n=1000000 BFS   gen=  918927 exp=  757864 maxfrontier= 244213 depth=    14 cost=     66 optimal=False time=   1439.3 ms seen=None iters=None
+n=1000000 UCS   gen= 1101241 exp=  921352 maxfrontier= 288894 depth=    19 cost=     57 optimal=True time=   4626.4 ms seen=None iters=None
+n=1000000 DFS   gen=  232118 exp=   94673 maxfrontier= 137446 depth= 87521 cost= 437441 optimal=False time=    320.8 ms seen=None iters=None
+n=1000000 IDDFS gen= 6502317 exp= 6502331 maxfrontier=     15 depth=    14 cost=     66 optimal=False time=  11994.6 ms seen=891722 iters=15
+
+=== SEED STABILITY (n=10,000 and 100,000, seeds 1,2,3)
+n=10000 seed=1 goal=3715 | BFS:gen=3030,depth=6,cost=28 | UCS:gen=2968,depth=8,cost=19* | DFS:gen=868,depth=318,cost=1555 | IDDFS:gen=8327,depth=6,cost=28
+n=10000 seed=2 goal=3424 | BFS:gen=6189,depth=8,cost=25* | UCS:gen=5291,depth=8,cost=25* | DFS:gen=9616,depth=773,cost=4009 | IDDFS:gen=26421,depth=8,cost=25*
+n=10000 seed=3 goal=2300 | BFS:gen=3231,depth=7,cost=45 | UCS:gen=5309,depth=9,cost=27* | DFS:gen=9171,depth=1350,cost=6644 | IDDFS:gen=10714,depth=7,cost=45
+n=100000 seed=1 goal=29715 | BFS:gen=70824,depth=11,cost=43 | UCS:gen=91089,depth=12,cost=42* | DFS:gen=90376,depth=16752,cost=84371 | IDDFS:gen=317431,depth=11,cost=43
+n=100000 seed=2 goal=27392 | BFS:gen=65313,depth=10,cost=38 | UCS:gen=50315,depth=11,cost=33* | DFS:gen=91037,depth=15667,cost=78728 | IDDFS:gen=255650,depth=10,cost=38

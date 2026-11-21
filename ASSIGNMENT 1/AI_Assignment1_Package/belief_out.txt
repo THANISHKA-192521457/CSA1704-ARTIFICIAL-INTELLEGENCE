@@ -1,0 +1,23 @@
+map seed=3: 32 free junctions of 36; dock=(0, 0)
+   D.....
+   ##....
+   ......
+   ....#.
+   ..#...
+   ......
+
+ k trial seed | no-sensor: beliefs gen plan len | sensor: beliefs gen worst-case plan
+ 2          1 |                    372        8 |                 951               8
+ 2          2 |                    418        9 |                2043               9
+ 2          3 |                    151        5 |                 203               5
+ 4          1 |                  15527       11 |                2701              10
+ 4          2 |                  17707       12 |                3513              10
+ 4          3 |                  13445       11 |                1721               8
+ 8          1 |                 149980       11 |                5853              10
+ 8          2 |                  77798       12 |                4637              10
+ 8          3 |                  72477       11 |                2493               7
+
+Averages over 3 trials
+k=2: no-sensor gen=314 plan=7.3 | sensor gen=1066 plan=7.3
+k=4: no-sensor gen=15560 plan=11.3 | sensor gen=2645 plan=9.3
+k=8: no-sensor gen=100085 plan=11.3 | sensor gen=4328 plan=9.0

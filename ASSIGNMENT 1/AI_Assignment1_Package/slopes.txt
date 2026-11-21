@@ -1,0 +1,4 @@
+BFS: overall slope=1.103 gen/n@1e6=0.919  step slopes: 0.60, 1.29, 1.42
+UCS: overall slope=1.021 gen/n@1e6=1.101  step slopes: 0.80, 0.97, 1.29
+DFS: overall slope=0.792 gen/n@1e6=0.232  step slopes: 0.95, 1.01, 0.41
+IDDFS: overall slope=1.296 gen/n@1e6=6.502  step slopes: 0.71, 1.42, 1.75
