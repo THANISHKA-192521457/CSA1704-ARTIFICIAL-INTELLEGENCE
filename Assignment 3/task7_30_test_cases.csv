@@ -1,0 +1,31 @@
+Test_ID,Prescribed_Drug,Allergies,Current_Medicines,Interactions,Contraindicated_Drugs,Allergy_Data_Complete,Dose_Confirmed,Expected_Result
+TC01,DrugB,DrugA,,,,True,True,UNSAFE / REVIEW
+TC02,DrugD,,DrugC,DrugB-DrugC,,True,True,UNSAFE / REVIEW
+TC03,DrugE,,,,DrugD,True,True,UNSAFE / REVIEW
+TC04,DrugF,,,,,False,True,REVIEW REQUIRED
+TC05,DrugG,,,,,True,False,UNSAFE / REVIEW
+TC06,DrugA,,,,,True,True,NO KNOWN RULE-BASED HAZARD
+TC07,DrugB,DrugA,,,,True,True,UNSAFE / REVIEW
+TC08,DrugD,,DrugC,DrugB-DrugC,,True,True,UNSAFE / REVIEW
+TC09,DrugE,,,,DrugD,True,True,UNSAFE / REVIEW
+TC10,DrugF,,,,,False,True,REVIEW REQUIRED
+TC11,DrugG,,,,,True,False,UNSAFE / REVIEW
+TC12,DrugA,,,,,True,True,NO KNOWN RULE-BASED HAZARD
+TC13,DrugB,DrugA,,,,True,True,UNSAFE / REVIEW
+TC14,DrugD,,DrugC,DrugB-DrugC,,True,True,UNSAFE / REVIEW
+TC15,DrugE,,,,DrugD,True,True,UNSAFE / REVIEW
+TC16,DrugF,,,,,False,True,REVIEW REQUIRED
+TC17,DrugG,,,,,True,False,UNSAFE / REVIEW
+TC18,DrugA,,,,,True,True,NO KNOWN RULE-BASED HAZARD
+TC19,DrugB,DrugA,,,,True,True,UNSAFE / REVIEW
+TC20,DrugD,,DrugC,DrugB-DrugC,,True,True,UNSAFE / REVIEW
+TC21,DrugE,,,,DrugD,True,True,UNSAFE / REVIEW
+TC22,DrugF,,,,,False,True,REVIEW REQUIRED
+TC23,DrugG,,,,,True,False,UNSAFE / REVIEW
+TC24,DrugA,,,,,True,True,NO KNOWN RULE-BASED HAZARD
+TC25,DrugB,DrugA,,,,True,True,UNSAFE / REVIEW
+TC26,DrugD,,DrugC,DrugB-DrugC,,True,True,UNSAFE / REVIEW
+TC27,DrugE,,,,DrugD,True,True,UNSAFE / REVIEW
+TC28,DrugF,,,,,False,True,REVIEW REQUIRED
+TC29,DrugG,,,,,True,False,UNSAFE / REVIEW
+TC30,DrugA,,,,,True,True,NO KNOWN RULE-BASED HAZARD

@@ -1,0 +1,6 @@
+Task,Experiment,Operation_count,Measured_seconds,Notes
+Task 1,2-symbol truth table,4,1.4346000057230412e-05,demonstration
+Task 2,chain 10,10,1.3122000041221327e-05,forward-chain proxy; resolution implementation required for full task
+Task 2,chain 20,20,1.3147000004209985e-05,forward-chain proxy; resolution implementation required for full task
+Task 2,chain 40,40,2.3995999981707428e-05,forward-chain proxy; resolution implementation required for full task
+Task 2,chain 80,80,4.421000005550013e-05,forward-chain proxy; resolution implementation required for full task

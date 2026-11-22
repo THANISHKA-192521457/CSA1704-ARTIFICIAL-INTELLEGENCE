@@ -1,0 +1,29 @@
+ASSIGNMENT 3 CO3 – SAMPLE EXPERIMENT RUN
+Note: small demonstration data only; expand to required assignment sizes.
+TASK 1 | entailment P,Q: {'entailed': True, 'kb_models': 1, 'countermodels': 0, 'assignments': 4} | measured_seconds=0.00001435
+TASK 2 | chain=10 | derived=True | rule_firings=10 | seconds=0.00001312
+TASK 2 | chain=20 | derived=True | rule_firings=20 | seconds=0.00001315
+TASK 2 | chain=40 | derived=True | rule_firings=40 | seconds=0.00002400
+TASK 2 | chain=80 | derived=True | rule_firings=80 | seconds=0.00004421
+TASK 3 | Anu eligible=True
+TASK 3 | Bala eligible=False
+TASK 3 | Chitra eligible=False
+TASK 4 | unify ('Knows', '?x', 'John') with ('Knows', 'Mary', '?y') => {'?x': 'Mary', '?y': 'John'}
+TASK 4 | unify ('?x',) with ('f', '?x') => None
+TASK 5 | resolution proof trace:
+  PatientData(R1)
+  PatientData(d)->Restricted(d)
+  Restricted(R1)
+  Audited(R1)
+  Audited(d)->Handled(e0,d)
+  Handled(e0,R1)
+  Employee(e0)
+  Employee(e0)&Handled(e0,R1)&Restricted(R1)->Authorised(e0)
+  Authorised(e0)
+  Therefore exists x Authorised(x)
+TASK 6 | forward facts=4 firings=2; backward query ('Ancestor', 'A', 'C')=True
+TASK 7 | case 1: UNSAFE / REVIEW | prescribed drug is listed as an allergy
+TASK 7 | case 2: UNSAFE / REVIEW | possible interaction with a current medicine
+TASK 7 | case 3: REVIEW REQUIRED | allergy data is incomplete
+TASK 7 | case 4: NO KNOWN RULE-BASED HAZARD | configured checks passed; this is not a guarantee of clinical safety
+Saved experiment_results.txt and experiment_results.csv
