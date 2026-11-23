@@ -1,0 +1,8 @@
+{'step': 1, 'percept': {'position': (0, 0), 'battery': 24, 'obstacle': None, 'goal': (7, 5)}, 'state': (1, 0), 'layer': 'PLANNER', 'action': 'MOVE (1, 0)', 'battery_after': 23}
+{'step': 2, 'percept': {'position': (1, 0), 'battery': 23, 'obstacle': None, 'goal': (7, 5)}, 'state': (1, 1), 'layer': 'PLANNER', 'action': 'MOVE (1, 1)', 'battery_after': 22}
+{'step': 3, 'percept': {'position': (1, 1), 'battery': 22, 'obstacle': (1, 0), 'goal': (7, 5)}, 'state': (1, 1), 'layer': 'REACTIVE_SAFETY', 'action': 'HOVER/REPLAN', 'battery_after': 21}
+{'step': 4, 'percept': {'position': (1, 1), 'battery': 21, 'obstacle': None, 'goal': (7, 5)}, 'state': (2, 1), 'layer': 'PLANNER', 'action': 'MOVE (2, 1)', 'battery_after': 20}
+{'step': 5, 'percept': {'position': (2, 1), 'battery': 20, 'obstacle': None, 'goal': (7, 5)}, 'state': (2, 2), 'layer': 'PLANNER', 'action': 'MOVE (2, 2)', 'battery_after': 19}
+{'step': 6, 'percept': {'position': (2, 2), 'battery': 19, 'obstacle': None, 'goal': (7, 5)}, 'state': (2, 3), 'layer': 'PLANNER', 'action': 'MOVE (2, 3)', 'battery_after': 18}
+{'step': 7, 'percept': {'position': (2, 3), 'battery': 18, 'obstacle': None, 'goal': (7, 5)}, 'state': (2, 4), 'layer': 'PLANNER', 'action': 'MOVE (2, 4)', 'battery_after': 17}
+{'step': 8, 'percept': {'position': (2, 4), 'battery': 17, 'obstacle': None, 'goal': (7, 5)}, 'state': (3, 4), 'layer': 'PLANNER', 'action': 'MOVE (3, 4)', 'battery_after': 16}

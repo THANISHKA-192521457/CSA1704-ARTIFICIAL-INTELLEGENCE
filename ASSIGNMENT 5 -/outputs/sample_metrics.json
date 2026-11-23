@@ -1,0 +1,33 @@
+{
+  "status": "illustrative deterministic synthetic demonstration; rerun scripts for local outputs",
+  "drone_scenarios": [
+    "normal flight",
+    "sudden obstacle",
+    "low battery / blocked route"
+  ],
+  "expert_system": {
+    "rules": 15,
+    "fault_categories": [
+      "bearing_failure",
+      "cavitation",
+      "motor_overload",
+      "seal_leak",
+      "cooling_fault",
+      "valve_blockage",
+      "mechanical_drag",
+      "bearing_wear",
+      "sensor_fault",
+      "healthy"
+    ]
+  },
+  "edge_demo": {
+    "dataset": "synthetic intrusion-like",
+    "parameters_full": 8,
+    "parameters_edge": 8,
+    "latency_ms": "measure on target device; not fabricated"
+  },
+  "chatbot": {
+    "intents": 8,
+    "fallback": "cosine similarity threshold"
+  }
+}

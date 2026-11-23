@@ -1,0 +1,1 @@
+{'diagnosis': 'seal_leak', 'fired': ['P04'], 'how': "P04 matched {'leak': 'yes', 'pressure': 'low'} and concluded seal_leak.", 'why': 'Observed facts supporting the selected rule: leak=yes, pressure=low.'}

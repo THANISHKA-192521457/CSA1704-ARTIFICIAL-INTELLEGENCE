@@ -1,0 +1,45 @@
+{
+  "dataset": "synthetic intrusion-like demo; not a public benchmark",
+  "train_n": 800,
+  "test_n": 400,
+  "full": {
+    "accuracy": 0.695,
+    "precision": 0.6524216524216524,
+    "recall": 1.0,
+    "f1": 0.7896551724137931,
+    "confusion_matrix": [
+      [
+        49,
+        122
+      ],
+      [
+        0,
+        229
+      ]
+    ]
+  },
+  "edge": {
+    "accuracy": 0.79,
+    "precision": 0.731629392971246,
+    "recall": 1.0,
+    "f1": 0.8450184501845017,
+    "confusion_matrix": [
+      [
+        87,
+        84
+      ],
+      [
+        0,
+        229
+      ]
+    ]
+  },
+  "demo_classifier_coefficients_full": 8,
+  "demo_classifier_coefficients_edge": 8,
+  "illustrative_dense_full_model_parameters": 9409,
+  "illustrative_compact_edge_model_parameters": 161,
+  "illustrative_full_fp_ops_per_sample": 9216,
+  "illustrative_edge_fp_ops_per_sample": 288,
+  "illustrative_full_weight_memory_float32_bytes": 37636,
+  "illustrative_edge_weight_memory_int8_bytes": 161
+}

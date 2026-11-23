@@ -1,0 +1,3 @@
+Which alerts are open? => {'intent': 'open_alerts', 'confidence': 1.0, 'response': 'There are 2 demonstration alerts open.'}
+Why was this flagged? => {'intent': 'why_flagged', 'confidence': 1.0, 'response': 'The sample event crossed the configured anomaly threshold.'}
+tell me a joke => {'intent': 'out_of_scope', 'confidence': 0, 'response': 'Sorry, I could not confidently map that request. Please rephrase or ask for help.'}

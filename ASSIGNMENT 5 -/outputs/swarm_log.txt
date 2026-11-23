@@ -1,0 +1,6 @@
+tick=1 positions=((1, 0), (3, 0), (2, 3)) visited=6
+tick=2 positions=((2, 0), (3, 1), (2, 2)) visited=9
+tick=3 positions=((2, 1), (3, 2), (1, 2)) visited=12
+tick=4 positions=((1, 1), (4, 2), (0, 2)) visited=15
+tick=5 positions=((0, 1), (4, 1), (0, 3)) visited=18
+tick=6 positions=((0, 1), (4, 1), (1, 3)) visited=19

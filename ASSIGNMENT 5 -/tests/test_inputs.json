@@ -1,0 +1,34 @@
+{
+  "drone": {
+    "normal": "no new obstacle; battery 20",
+    "sudden_obstacle": "obstacle appears adjacent at step 3",
+    "boundary": "battery <= 4 or goal unreachable"
+  },
+  "expert_system": [
+    {
+      "vibration": "high",
+      "temperature": "high"
+    },
+    {
+      "pressure": "low",
+      "flow": "low"
+    },
+    {
+      "leak": "yes",
+      "pressure": "low"
+    },
+    {
+      "noise": "high",
+      "vibration": "high"
+    },
+    {
+      "temperature": "normal",
+      "vibration": "normal"
+    }
+  ],
+  "chatbot": [
+    "Which alerts are open?",
+    "Why was this flagged?",
+    "tell me a joke"
+  ]
+}
